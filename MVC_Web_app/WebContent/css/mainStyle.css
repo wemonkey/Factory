@@ -1,0 +1,115 @@
+body {
+	font-family: 'Î¢ÈíÑÅºÚ', sans-serif;
+	text-align: center;
+	background: url("../images/background5.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	/*
+ 	 background: url("../images/background5.jpg");
+     background-size: 100%;
+     background-color: rgba(255, 255, 255, 0.55);
+ */
+}
+
+h1 {
+	font-size: 40px;
+	font-weight: 500;
+	letter-spacing: 4px;
+	margin: 1% 0;
+	color: #FFFFFF;
+}
+
+h3 {
+	font-size: 25px;
+	font-weight: 500;
+	letter-spacing: 4px;
+	margin: 0 auto;
+	color: #FFFFFF;
+}
+
+table {
+	border-collapse: collapse;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+}
+
+table td, table th {
+	border: 1px solid #cad9ea;
+	color: #666;
+	height: 15%;
+}
+
+table thead th {
+	background-color: #CCE8EB;
+	width: 100%;
+}
+
+table tr:nth-child(odd) {
+	background: #fff;
+}
+
+table tr:nth-child(even) {
+	background: #F5FAFA;
+}
+
+.Search_Add {
+	width: 70%;
+	height: 10%;
+	margin: 0 auto;
+	border: 2px solid #666;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.55);
+}
+
+.StaffInfo_One {
+	width: 70%;
+	height: 10%;
+	margin: 0 auto;
+	border: 2px solid #666;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.55);
+}
+
+.Add_Button {
+	width: 5%;
+	height: 50%;
+	float: right;
+	margin-top: 1%;
+	border: 2px solid #666;
+	border-radius: 5px;
+}
+
+.Search_Button {
+	width: 5%;
+	height: 50%;
+	float: left;
+	border: 2px solid #666;
+	border-radius: 5px;
+}
+
+.StaffInfo_All {
+	width: 70%;
+	height: 78%;
+	margin: 0 auto;
+	border: 2px solid #666;
+	border-radius: 5px;
+	background-color: rgba(0, 0, 0, 0.55);
+}
+
+input[type="text"] {
+	width: 21%;
+	height: 50%;
+	float: left;
+	border: 2px solid #666;
+	border-radius: 5px;
+}
+
+a {
+	color: black;
+}
